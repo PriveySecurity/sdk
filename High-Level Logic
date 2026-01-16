@@ -1,0 +1,9 @@
+Deposit:
+User -> Generate commitment
+User -> Send funds to pool
+Store commitment on-chain
+
+Withdraw:
+User -> Generate proof
+Verify proof
+Release funds to new address
